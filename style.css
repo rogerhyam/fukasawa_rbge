@@ -1,0 +1,163 @@
+/*
+Theme Name: Fukasawa RBGE
+Theme URI: http://stories.rbge.org.uk
+Description: RBGE child theme of Fakasawa for Botanics Stories
+Author: Roger Hyam
+Author URI: http://stories.rbge.org.uk
+Template: fukasawa
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.blog-title{
+    
+}
+
+.blog-title a{
+    border: none;
+    text-align: left;
+    font-size: 32px;
+    padding-left: 0px;
+    color:#006750;
+}
+
+.blog-title a:hover {
+	background: transparent;
+	color: #333;
+}
+
+.blog-description{
+    color:#006750;
+}
+
+.main-menu a {
+    color: #006750;
+}
+
+.main-menu:before,
+.widgets:before,
+.widget + .widget:before,
+.credits:before {
+    content: none;
+}
+
+.main-menu:before,
+.main-menu:after{
+	content: "";
+	display: block;
+	width: 196px;
+	height: 2px;
+	background: #006750;
+	margin: 25px 0;
+}
+
+.tnp-widget label{
+    display: none;
+}
+
+.tnp-widget{
+    margin-bottom: 2em;
+}
+
+.widget_newsletterwidget p{
+    margin-bottom:0.5em;
+}
+
+.widget_newsletterwidget .tnp-submit{
+    border: solid #006750 1px !important;
+    background-color: rgba(0, 102, 80, 0.5) !important;
+    border-radius: 3px;
+}
+.widget-content p{
+    color: #006750;
+}
+
+.widget{
+    margin-bottom: 2em !important;
+}
+
+
+
+.rbge-branding{
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid 1px #006750;
+    border-radius: 4px;
+    margin-bottom: 2em;
+}
+
+/* 
+    Sticky posts plugin
+*/
+.post-container .category-sticky{
+    border: solid black 1px;
+}
+
+.sidebar{
+    /* border-right: solid 4px #006750; */
+    background: url('images/SIBALDIA_P555_pale.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1000px 1000px;
+    min-height:100%;
+}
+
+/* 
+    hide branding for all categories at top of single page
+    this will be turned on again by subtheming
+*/
+.rbge-cat-brand div{
+    display: none;
+}
+/* the link fills the whole div */
+.rbge-cat-brand div a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* turn branding on at top of category list page */
+.category-edible-gardening-project .page-title{
+    border: solid red 1px;
+    background-color: black;
+    color: white;
+}
+
+/* turn branding on at top of single page */
+.rbge-cat-brand div.category-edible-gardening-project{
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+/* turn branding on at top of category list page */
+.category-ww1 .page-title{
+    background-image:url('images/ww1_banner.jpg');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #1D1D1B;
+}
+.category-ww1 .page-title h4{
+    display: none;
+}
+
+
+/* turn branding on at top of single page */
+.rbge-cat-brand div.category-ww1{
+    display: block;
+    background-image:url('images/ww1_banner.jpg');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color: #1D1D1B;
+	height: 90px;
+}
