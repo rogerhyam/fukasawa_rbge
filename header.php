@@ -82,7 +82,7 @@
 			<ul class="main-menu">
 				
 				<?php if ( has_nav_menu( 'primary' ) ) {
-																	
+	
 					wp_nav_menu( array( 
 					
 						'container' => '', 
@@ -113,7 +113,7 @@
 			 	<p>&copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>">RBG Edinburgh</a>.</p>
 			 	<p>	<?php _e('Powered by ','fukasawa'); ?><a href="http://www.wordpress.org">WordPress</a>.</p>
 			 	<p><?php _e('Theme after ','fukasawa'); ?><a href="http://www.andersnoren.se">Anders Nor&eacute;n</a>.</p>
-			 	
+			 	<p><a href="/wp-admin">Author's login here.</a></p>
 			 </div>
 			
 			 <div class="clear"></div>

@@ -11,13 +11,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 .blog-title{
-    
+    font-family: 'Verdana', 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .blog-title a{
+    
     border: none;
     text-align: left;
-    font-size: 32px;
+    font-size: 28px;
     padding-left: 0px;
     color:#006750;
 }
@@ -84,17 +85,24 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     padding-top: 0.5em;
     padding-left: 0.5em;
     padding-bottom: 0.5em;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: solid 1px #006750;
-    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.4);
     margin-bottom: 2em;
+    margin-left: -40px;
+    margin-right: -40px;
+    text-align: center;
+}
+
+.rbge-branding img{
+    width: 165px;
 }
 
 /* 
     Sticky posts plugin
 */
 .post-container .category-sticky{
-    border: solid black 1px;
+    /*border: solid #006750 1px; */
+    border: none;
+    /* box-shadow: 0px 0px 6px black; */
 }
 
 .sidebar{
@@ -120,24 +128,97 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     height: 100%;
 }
 
+/* categories page */
+.widget_categories.amr_widget ul{
+}
+
+.widget_categories.amr_widget li{
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    
+}
+.widget_categories.amr_widget li:before{
+    content:"";
+    width: 0px;
+}
+
+
+/* ------------------ W I L D  L I F E  I N  T H E  G A R D E N  ------------ */
+
+/* turn branding on at top of category list page */
+.category-garden-wildlife .page-title{
+    background-image:url('images/garden_wildlife.png');
+  	background-repeat: no-repeat;
+  	background-position: right bottom;
+      color: white;
+      height: 90px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #5A3E1F;
+}
+
+/* turn branding on at top of single page */
+.rbge-cat-brand div.category-garden-wildlife{
+    display: block;
+    background-image:url('images/garden_wildlife.png');
+   	background-repeat: no-repeat;
+   	background-position: right bottom;
+   	background-color: #5A3E1F;
+   	height: 90px;
+}
+
+.category-garden-wildlife .page-title h4{
+    display: none;
+}
+.rbge-cat-brand div.category-garden-wildlife h3,
+.rbge-cat-brand div.category-garden-wildlife p
+{
+    display: none;
+}
+
+/* ------------------ E D I B L E  G A R D E N I N G ------------ */
 
 /* turn branding on at top of category list page */
 .category-edible-gardening-project .page-title{
-    border: solid red 1px;
-    background-color: black;
-    color: white;
+    background-image:url('images/edible_gardening_project.png');
+  	background-repeat: no-repeat;
+  	background-position: right bottom;
+      color: white;
+      height: 90px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #3C3C3B;
 }
 
 /* turn branding on at top of single page */
 .rbge-cat-brand div.category-edible-gardening-project{
     display: block;
-    background-color: black;
-    color: white;
+    background-image:url('images/edible_gardening_project.png');
+   	background-repeat: no-repeat;
+   	background-position: right bottom;
+   	background-color: #3C3C3B;
+   	height: 90px;
 }
+
+.category-edible-gardening-project .page-title h4{
+    display: none;
+}
+.rbge-cat-brand div.category-edible-gardening-project h3,
+.rbge-cat-brand div.category-edible-gardening-project p
+{
+    display: none;
+}
+
+
+/* ------------------ W O R L D  W A R  1 ------------ */
 
 /* turn branding on at top of category list page */
 .category-ww1 .page-title{
-    background-image:url('images/ww1_banner.jpg');
+    background-image:url('images/WW1.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
     color: white;
@@ -155,9 +236,62 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* turn branding on at top of single page */
 .rbge-cat-brand div.category-ww1{
     display: block;
-    background-image:url('images/ww1_banner.jpg');
+    background-image:url('images/WW1.png');
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-color: #1D1D1B;
 	height: 90px;
+}
+.rbge-cat-brand div.category-ww1 h3,
+.rbge-cat-brand div.category-ww1 p
+{
+    display: none;
+}
+/* ------------------ B I G  P I C N I C ------------ */
+
+/* turn branding on at top of category list page */
+.category-big-picnic .page-title{
+    background-image:url('images/big_picnic.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.category-big-picnic .page-title h4{
+    display: none;
+}
+
+
+/* turn branding on at top of single page */
+.rbge-cat-brand div.category-big-picnic{
+    display: block;
+    background-image:url('images/big_picnic.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color: white;
+	height: 90px;
+}
+.rbge-cat-brand div.category-big-picnic h3,
+.rbge-cat-brand div.category-big-picnic p
+{
+    display: none;
+}
+
+/* -------------- end sub branding -------------- */
+
+@media (max-width: 600px) {
+    
+    .page-title{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    
 }
