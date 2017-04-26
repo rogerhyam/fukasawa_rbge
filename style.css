@@ -53,6 +53,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	margin: 25px 0;
 }
 
+/* bottom of posts */
+.post-meta-bottom li{
+    display: list-item !important;
+    float: none !important;
+}
+.post-date a{
+    font-size: 160%;
+    font-weight: bold;
+}
+
 .tnp-widget label{
     display: none;
 }
@@ -77,8 +87,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .widget{
     margin-bottom: 2em !important;
 }
-
-
 
 .rbge-branding{
     padding-right: 0.5em;

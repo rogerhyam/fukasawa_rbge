@@ -111,12 +111,12 @@
 					?>
 				
 					<ul>
-						<li class="post-date"><a href="<?php the_permalink(); ?>"><?php the_date(get_option('date_format')); ?></a></li>
+						<li class="post-date">Posted by <?php the_author_posts_link(); ?> on <?php the_date(get_option('date_format')); ?></li>
 						<?php if (has_category()) : ?>
-							<li class="post-categories"><?php _e('In','fukasawa'); ?> <?php the_category(', '); ?></li>
+							<li class="post-categories"><?php _e('Categories:','fukasawa'); ?> <?php the_category(', '); ?></li>
 						<?php endif; ?>
 						<?php if (has_tag()) : ?>
-							<li class="post-tags"><?php the_tags('', ' '); ?></li>
+							<li class="post-tags">Tags: <?php the_tags('', ' '); ?></li>
 						<?php endif; ?>
 						<?php edit_post_link('Edit post', '<li>', '</li>'); ?>
 					</ul>
