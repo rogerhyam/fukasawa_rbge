@@ -13,7 +13,7 @@ function enqueue_parent_styles() {
 function add_featured_image_in_rss($content) {
     global $post;
     if ( has_post_thumbnail( $post->ID ) ){
-        $content = '<p style="clear:both;">' . get_the_post_thumbnail( $post->ID, 'thumbnail', array( 'style' => 'float:left; margin:0 1em 1em 0;' ) ) . '' . $content . '</p>';
+        $content = '<p style="clear:both;overflow:hidden;">' . get_the_post_thumbnail( $post->ID, 'thumbnail', array( 'style' => 'float:left; margin:0 1em 1em 0;' ) ) . '' . $content . '</p>';
     }
 return $content;
 }
