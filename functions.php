@@ -11,10 +11,10 @@ function enqueue_parent_styles() {
     Add featured images to the RSS feeds
 */
 function add_featured_image_in_rss($content) {
-global $post;
-if ( has_post_thumbnail( $post->ID ) ){
-    $content = '<p>' . get_the_post_thumbnail( $post->ID, 'thumbnail', array( 'style' => 'float:left; margin:0 1em 1em 0;' ) ) . '' . $content . '</p>';
-}
+    global $post;
+    if ( has_post_thumbnail( $post->ID ) ){
+        $content = '<p style="clear:both;">' . get_the_post_thumbnail( $post->ID, 'thumbnail', array( 'style' => 'float:left; margin:0 1em 1em 0;' ) ) . '' . $content . '</p>';
+    }
 return $content;
 }
 
@@ -23,7 +23,7 @@ add_filter('the_content_feed', 'add_featured_image_in_rss');
 
 /* mechanism to hide low visability category items from main blog roll */
 function exclude_category( $query ) {
-    if ( $query->is_home() && $query->is_main_query() ) {
+    if ( ($query->is_home() && $query->is_main_query()) || $query->is_feed() ) {
         $query->set( 'cat', '-280' );
     }
 }
