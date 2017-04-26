@@ -281,6 +281,40 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     display: none;
 }
 
+/* ------------------ E D I N B U R G H  L I V I N G  L A N D S C A P E  ------------ */
+
+/* turn branding on at top of category list page */
+.category-edinburgh-living-landscape .page-title{
+    background-image:url('images/edinburgh_living_landscape.png');
+  	background-repeat: no-repeat;
+  	background-position: right bottom;
+      color: white;
+      height: 90px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #5A3E1F;
+}
+
+/* turn branding on at top of single page */
+.rbge-cat-brand div.category-edinburgh-living-landscape{
+    display: block;
+    background-image:url('images/edinburgh_living_landscape.png');
+   	background-repeat: no-repeat;
+   	background-position: right bottom;
+   	background-color: #5A3E1F;
+   	height: 90px;
+}
+
+.category-edinburgh-living-landscape .page-title h4{
+    display: none;
+}
+.rbge-cat-brand div.category-edinburgh-living-landscape h3,
+.rbge-cat-brand div.category-edinburgh-living-landscape p
+{
+    display: none;
+}
+
 /* -------------- end sub branding -------------- */
 
 @media (max-width: 600px) {

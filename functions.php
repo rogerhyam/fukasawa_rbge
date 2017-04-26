@@ -22,4 +22,5 @@ add_filter('the_excerpt_rss', 'add_featured_image_in_rss');
 add_filter('the_content_feed', 'add_featured_image_in_rss');
 
 
+
 ?>
