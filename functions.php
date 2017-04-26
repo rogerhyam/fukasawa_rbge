@@ -21,6 +21,12 @@ return $content;
 add_filter('the_excerpt_rss', 'add_featured_image_in_rss');
 add_filter('the_content_feed', 'add_featured_image_in_rss');
 
-
+/* mechanism to hide low visability category items from main blog roll */
+function exclude_category( $query ) {
+    if ( $query->is_home() && $query->is_main_query() ) {
+        $query->set( 'cat', '-280' );
+    }
+}
+add_action( 'pre_get_posts', 'exclude_category' );
 
 ?>
