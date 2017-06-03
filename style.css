@@ -323,6 +323,74 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     display: none;
 }
 
+/* ------------------ Flora of Nepal Trail ------------ */
+
+/* turn branding on at top of category list page */
+.category-flora-nepal-trail .page-title{
+    background-image:url('images/flora-nepal-trail.png');
+  	background-repeat: no-repeat;
+  	background-position: right bottom;
+      color: white;
+      height: 90px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #C3C087;
+}
+
+/* turn branding on at top of single page */
+.rbge-cat-brand div.category-flora-nepal-trail{
+    display: block;
+    background-image:url('images/flora-nepal-trail.png');
+   	background-repeat: no-repeat;
+   	background-position: right bottom;
+   	background-color: #C3C087;
+   	height: 90px;
+}
+
+.category-flora-nepal-trail .page-title h4{
+    display: none;
+}
+.rbge-cat-brand div.flora-nepal-trail h3,
+.rbge-cat-brand div.flora-nepal-trail p
+{
+    display: none;
+}
+
+/* ------------------ Plants of India ------------ */
+
+/* turn branding on at top of category list page */
+.category-plants-of-india .page-title{
+    background-image:url('images/plants-of-india.png');
+  	background-repeat: no-repeat;
+  	background-position: right bottom;
+      color: white;
+      height: 90px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #C3C087;
+}
+
+/* turn branding on at top of single page */
+.rbge-cat-brand div.category-plants-of-india{
+    display: block;
+    background-image:url('images/plants-of-india.png');
+   	background-repeat: no-repeat;
+   	background-position: right bottom;
+   	background-color: #C3C087;
+   	height: 90px;
+}
+
+.category-plants-of-india .page-title h4{
+    display: none;
+}
+.rbge-cat-brand div.plants-of-india h3,
+.rbge-cat-brand div.plants-of-india p
+{
+    display: none;
+}
+
 /* -------------- end sub branding -------------- */
 
 @media (max-width: 600px) {
