@@ -152,6 +152,32 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     width: 0px;
 }
 
+.rbge-trail-nav-wrapper{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.rbge-trail-nav-label{
+    display: none;
+}
+.rbge-trail-nav-previous,
+.rbge-trail-nav-next{
+    
+}
+.rbge-trail-nav-previous{
+    float: left;
+}
+.rbge-trail-nav-previous::before{
+    content: '\2190 ';
+    font-weight: bold;
+}
+.rbge-trail-nav-next{
+    float: right;
+}
+.rbge-trail-nav-next::after{
+    content: ' \2192';
+    font-weight: bold;
+}
+
 
 /* ------------------ W I L D  L I F E  I N  T H E  G A R D E N  ------------ */
 
