@@ -335,7 +335,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
       margin-left: 10px;
       margin-right: 10px;
       margin-bottom: 10px;
-      background-color: #C3C087;
+      background-color: white;
 }
 
 /* turn branding on at top of single page */
@@ -344,7 +344,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     background-image:url('images/flora-nepal-trail.png');
    	background-repeat: no-repeat;
    	background-position: right bottom;
-   	background-color: #C3C087;
+   	background-color: white;
    	height: 90px;
 }
 
