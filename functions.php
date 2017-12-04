@@ -29,4 +29,18 @@ function exclude_category( $query ) {
 }
 add_action( 'pre_get_posts', 'exclude_category' );
 
+/* hide some meta boxes from the innocent  */
+
+function remove_page_fields() {
+    if(!current_user_can('administrator')){
+        remove_meta_box( 'post_is_sticky' , 'post' , 'normal' ); 
+        remove_meta_box( 'formatdiv' , 'post' , 'normal' );     
+        remove_meta_box( 'trackbacksdiv' , 'post' , 'normal' );
+        remove_meta_box( 'postcustom' , 'post' , 'normal' );     
+        remove_meta_box( 'slugdiv' , 'post' , 'normal' );     
+    }
+}
+add_action( 'admin_menu' , 'remove_page_fields' );
+
+
 ?>
