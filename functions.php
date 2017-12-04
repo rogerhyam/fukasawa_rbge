@@ -46,6 +46,7 @@ function remove_scary_meta_boxes() {
         remove_meta_box( 'wp2t', 'post', 'side');
         remove_meta_box( 'webdados_fb_open_graph', 'post', 'normal');
         remove_meta_box( 'webdados_fb_open_graph', 'post', 'side');
+        remove_meta_box( 'webdados_fb_open_graph', 'post', 'advanced');
     }
 
 }
