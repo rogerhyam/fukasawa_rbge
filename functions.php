@@ -40,7 +40,11 @@ function remove_scary_meta_boxes() {
         remove_meta_box( 'trackbacksdiv' , 'post' , 'normal' );
         remove_meta_box( 'postcustom' , 'post' , 'normal' );     
         remove_meta_box( 'slugdiv' , 'post' , 'normal' );
-        remove_meta_box( 'shareaholic' , 'post' , 'normal' );    
+        remove_meta_box( 'shareaholic' , 'post' , 'normal' );
+        remove_meta_box( 'shareaholic' , 'post' , 'side' );
+        remove_meta_box( 'wp2t', 'post', 'normal');
+        remove_meta_box( 'wp2t', 'post', 'side');
+        
     }
 
 }
