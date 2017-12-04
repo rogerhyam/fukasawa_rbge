@@ -37,7 +37,8 @@ function remove_page_fields() {
         remove_meta_box( 'formatdiv' , 'post' , 'normal' );     
         remove_meta_box( 'trackbacksdiv' , 'post' , 'normal' );
         remove_meta_box( 'postcustom' , 'post' , 'normal' );     
-        remove_meta_box( 'slugdiv' , 'post' , 'normal' );     
+        remove_meta_box( 'slugdiv' , 'post' , 'normal' );
+        remove_meta_box( 'shareaholic' , 'post' , 'normal' );    
     }
 }
 add_action( 'admin_menu' , 'remove_page_fields' );
