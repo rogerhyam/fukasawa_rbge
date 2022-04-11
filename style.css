@@ -42,6 +42,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .credits:before {
     content: none;
 }
+.credits p a,
+.credits p{
+    color: black;
+}
 
 .main-menu:before,
 .main-menu:after{
