@@ -221,6 +221,41 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 
+/* ------------------ scottish-plant-recovery  ------------ */
+
+/* turn branding on at top of category list page */
+.category-scottish-plant-recovery .page-title{
+    background-image:url('images/scottish-plant-recovery.png');
+  	background-repeat: no-repeat;
+  	background-position: right bottom;
+      color: white;
+      height: 90px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #5A3E1F;
+}
+
+/* turn branding on at top of single page */
+.rbge-cat-brand div.category-scottish-plant-recovery{
+    display: block;
+    background-image:url('images/scottish-plant-recovery.png');
+   	background-repeat: no-repeat;
+   	background-position: right bottom;
+   	background-color: #5A3E1F;
+   	height: 90px;
+}
+
+.category-scottish-plant-recovery .page-title h1{
+    display: none;
+}
+.rbge-cat-brand div.category-scottish-plant-recovery h3,
+.rbge-cat-brand div.category-scottish-plant-recovery p
+{
+    display: none;
+}
+
+
 
 /* ------------------ W I L D  L I F E  I N  T H E  G A R D E N  ------------ */
 
