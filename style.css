@@ -10,26 +10,26 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-.blog-title{
+.blog-title {
     font-family: 'Verdana', 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.blog-title a{
-    
+.blog-title a {
+
     border: none;
     text-align: left;
     font-size: 28px;
     padding-left: 0px;
-    color:#006750;
+    color: #006750;
 }
 
 .blog-title a:hover {
-	background: transparent;
-	color: #333;
+    background: transparent;
+    color: #333;
 }
 
-.blog-description{
-    color:#006750;
+.blog-description {
+    color: #006750;
 }
 
 .main-menu a {
@@ -38,61 +38,64 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .main-menu:before,
 .widgets:before,
-.widget + .widget:before,
+.widget+.widget:before,
 .credits:before {
     content: none;
 }
+
 .credits p a,
-.credits p{
+.credits p {
     color: #006750;
 }
 
 .main-menu:before,
-.main-menu:after{
-	content: "";
-	display: block;
-	width: 196px;
-	height: 2px;
-	background: #006750;
-	margin: 25px 0;
+.main-menu:after {
+    content: "";
+    display: block;
+    width: 196px;
+    height: 2px;
+    background: #006750;
+    margin: 25px 0;
 }
 
 /* bottom of posts */
-.post-meta-bottom li{
+.post-meta-bottom li {
     display: list-item !important;
     float: none !important;
 }
-.post-date a{
+
+.post-date a {
     font-size: 160%;
     font-weight: bold;
 }
 
-.tnp-widget label{
+.tnp-widget label {
     display: none;
 }
 
-.tnp-widget{
+.tnp-widget {
     margin-bottom: 2em;
 }
 
-.widget_newsletterwidget p{
-    margin-bottom:0.5em;
+.widget_newsletterwidget p {
+    margin-bottom: 0.5em;
 }
 
-.widget_newsletterwidget .tnp-submit{
+.widget_newsletterwidget .tnp-submit {
     border: solid #006750 1px !important;
     background-color: rgba(0, 102, 80, 0.5) !important;
     border-radius: 3px;
 }
-.widget-content p{
+
+.widget-content p {
     color: #006750;
 }
 
-.widget{
+.widget {
     margin-bottom: 2em !important;
 }
 
-.rbge-branding{
+.rbge-branding {
     padding-right: 0.5em;
     padding-top: 0.5em;
     padding-left: 0.5em;
@@ -104,80 +107,85 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     text-align: center;
 }
 
-.rbge-branding img{
+.rbge-branding img {
     width: 165px;
 }
 
 /* 
     Sticky posts plugin
 */
-.post-container .category-sticky{
+.post-container .category-sticky {
     /*border: solid #006750 1px; */
     border: none;
     /* box-shadow: 0px 0px 6px black; */
 }
 
-.sidebar{
+.sidebar {
     /* border-right: solid 4px #006750; */
     background: url('images/SIBALDIA_P555_pale.svg');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 1000px 1000px;
-    min-height:100%;
+    min-height: 100%;
 }
 
 /* 
     hide branding for all categories at top of single page
     this will be turned on again by subtheming
 */
-.rbge-cat-brand div{
+.rbge-cat-brand div {
     display: none;
 }
+
 /* the link fills the whole div */
-.rbge-cat-brand div a{
+.rbge-cat-brand div a {
     display: block;
     width: 100%;
     height: 100%;
 }
 
 /* categories page */
-.widget_categories.amr_widget ul{
-}
+.widget_categories.amr_widget ul {}
 
-.widget_categories.amr_widget li{
+.widget_categories.amr_widget li {
     margin-top: 0px !important;
     margin-bottom: 0px;
     padding-top: 0em;
     padding-bottom: 0em;
-    
+
 }
-.widget_categories.amr_widget li:before{
-    content:"";
+
+.widget_categories.amr_widget li:before {
+    content: "";
     width: 0px;
 }
 
-.rbge-trail-nav-wrapper{
+.rbge-trail-nav-wrapper {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.rbge-trail-nav-label{
+
+.rbge-trail-nav-label {
     display: none;
 }
+
 .rbge-trail-nav-previous,
-.rbge-trail-nav-next{
-    
-}
-.rbge-trail-nav-previous{
+.rbge-trail-nav-next {}
+
+.rbge-trail-nav-previous {
     float: left;
 }
-.rbge-trail-nav-previous::before{
+
+.rbge-trail-nav-previous::before {
     content: '\2190 ';
     font-weight: bold;
 }
-.rbge-trail-nav-next{
+
+.rbge-trail-nav-next {
     float: right;
 }
-.rbge-trail-nav-next::after{
+
+.rbge-trail-nav-next::after {
     content: ' \2192';
     font-weight: bold;
 }
@@ -189,34 +197,34 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* ------------------ scotland-conservation-science  ------------ */
 
 /* turn branding on at top of category list page */
-.category-scotland-conservation-science .page-title{
-    background-image:url('images/scotland-conservation-science.png');
-  	background-repeat: no-repeat;
-  	background-position: right bottom;
-      color: white;
-      height: 90px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      background-color: #5A3E1F;
+.category-scotland-conservation-science .page-title {
+    background-image: url('images/scotland-conservation-science.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #5A3E1F;
 }
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-scotland-conservation-science{
+.rbge-cat-brand div.category-scotland-conservation-science {
     display: block;
-    background-image:url('images/scotland-conservation-science.png');
-   	background-repeat: no-repeat;
-   	background-position: right bottom;
-   	background-color: #5A3E1F;
-   	height: 90px;
+    background-image: url('images/scotland-conservation-science.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #5A3E1F;
+    height: 90px;
 }
 
-.category-scotland-conservation-science .page-title h1{
+.category-scotland-conservation-science .page-title h1 {
     display: none;
 }
+
 .rbge-cat-brand div.category-scotland-conservation-science h3,
-.rbge-cat-brand div.category-scotland-conservation-science p
-{
+.rbge-cat-brand div.category-scotland-conservation-science p {
     display: none;
 }
 
@@ -224,34 +232,34 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* ------------------ scottish-plant-recovery  ------------ */
 
 /* turn branding on at top of category list page */
-.category-scottish-plant-recovery .page-title{
-    background-image:url('images/scottish-plant-recovery.png');
-  	background-repeat: no-repeat;
-  	background-position: right bottom;
-      color: white;
-      height: 90px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      background-color: #5A3E1F;
+.category-scottish-plant-recovery .page-title {
+    background-image: url('images/scottish-plant-recovery.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #5A3E1F;
 }
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-scottish-plant-recovery{
+.rbge-cat-brand div.category-scottish-plant-recovery {
     display: block;
-    background-image:url('images/scottish-plant-recovery.png');
-   	background-repeat: no-repeat;
-   	background-position: right bottom;
-   	background-color: #5A3E1F;
-   	height: 90px;
+    background-image: url('images/scottish-plant-recovery.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #5A3E1F;
+    height: 90px;
 }
 
-.category-scottish-plant-recovery .page-title h1{
+.category-scottish-plant-recovery .page-title h1 {
     display: none;
 }
+
 .rbge-cat-brand div.category-scottish-plant-recovery h3,
-.rbge-cat-brand div.category-scottish-plant-recovery p
-{
+.rbge-cat-brand div.category-scottish-plant-recovery p {
     display: none;
 }
 
@@ -260,68 +268,68 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* ------------------ W I L D  L I F E  I N  T H E  G A R D E N  ------------ */
 
 /* turn branding on at top of category list page */
-.category-garden-wildlife .page-title{
-    background-image:url('images/garden_wildlife.png');
-  	background-repeat: no-repeat;
-  	background-position: right bottom;
-      color: white;
-      height: 90px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      background-color: #5A3E1F;
+.category-garden-wildlife .page-title {
+    background-image: url('images/garden_wildlife.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #5A3E1F;
 }
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-garden-wildlife{
+.rbge-cat-brand div.category-garden-wildlife {
     display: block;
-    background-image:url('images/garden_wildlife.png');
-   	background-repeat: no-repeat;
-   	background-position: right bottom;
-   	background-color: #5A3E1F;
-   	height: 90px;
+    background-image: url('images/garden_wildlife.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #5A3E1F;
+    height: 90px;
 }
 
-.category-garden-wildlife .page-title h1{
+.category-garden-wildlife .page-title h1 {
     display: none;
 }
+
 .rbge-cat-brand div.category-garden-wildlife h3,
-.rbge-cat-brand div.category-garden-wildlife p
-{
+.rbge-cat-brand div.category-garden-wildlife p {
     display: none;
 }
 
 /* ------------------ E D I B L E  G A R D E N I N G ------------ */
 
 /* turn branding on at top of category list page */
-.category-edible-gardening-project .page-title{
-    background-image:url('images/edible_gardening_project.png');
-  	background-repeat: no-repeat;
-  	background-position: right bottom;
-      color: white;
-      height: 90px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      background-color: #3C3C3B;
+.category-edible-gardening-project .page-title {
+    background-image: url('images/edible_gardening_project.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #3C3C3B;
 }
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-edible-gardening-project{
+.rbge-cat-brand div.category-edible-gardening-project {
     display: block;
-    background-image:url('images/edible_gardening_project.png');
-   	background-repeat: no-repeat;
-   	background-position: right bottom;
-   	background-color: #3C3C3B;
-   	height: 90px;
+    background-image: url('images/edible_gardening_project.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #3C3C3B;
+    height: 90px;
 }
 
-.category-edible-gardening-project .page-title h1{
+.category-edible-gardening-project .page-title h1 {
     display: none;
 }
+
 .rbge-cat-brand div.category-edible-gardening-project h3,
-.rbge-cat-brand div.category-edible-gardening-project p
-{
+.rbge-cat-brand div.category-edible-gardening-project p {
     display: none;
 }
 
@@ -329,10 +337,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* ------------------ W O R L D  W A R  1 ------------ */
 
 /* turn branding on at top of category list page */
-.category-ww1 .page-title{
-    background-image:url('images/WW1.png');
-	background-repeat: no-repeat;
-	background-position: right bottom;
+.category-ww1 .page-title {
+    background-image: url('images/WW1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
     color: white;
     height: 90px;
     margin-left: 10px;
@@ -340,32 +348,34 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     margin-bottom: 10px;
     background-color: #1D1D1B;
 }
-.category-ww1 .page-title h1{
+
+.category-ww1 .page-title h1 {
     display: none;
 }
 
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-ww1{
+.rbge-cat-brand div.category-ww1 {
     display: block;
-    background-image:url('images/WW1.png');
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-color: #1D1D1B;
-	height: 90px;
+    background-image: url('images/WW1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #1D1D1B;
+    height: 90px;
 }
+
 .rbge-cat-brand div.category-ww1 h3,
-.rbge-cat-brand div.category-ww1 p
-{
+.rbge-cat-brand div.category-ww1 p {
     display: none;
 }
+
 /* ------------------ B I G  P I C N I C ------------ */
 
 /* turn branding on at top of category list page */
-.category-big-picnic .page-title{
-    background-image:url('images/big_picnic.png');
-	background-repeat: no-repeat;
-	background-position: right bottom;
+.category-big-picnic .page-title {
+    background-image: url('images/big_picnic.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
     color: white;
     height: 90px;
     margin-left: 10px;
@@ -373,139 +383,138 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     margin-bottom: 10px;
     background-color: white;
 }
-.category-big-picnic .page-title h1{
+
+.category-big-picnic .page-title h1 {
     display: none;
 }
 
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-big-picnic{
+.rbge-cat-brand div.category-big-picnic {
     display: block;
-    background-image:url('images/big_picnic.png');
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-color: white;
-	height: 90px;
+    background-image: url('images/big_picnic.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: white;
+    height: 90px;
 }
+
 .rbge-cat-brand div.category-big-picnic h3,
-.rbge-cat-brand div.category-big-picnic p
-{
+.rbge-cat-brand div.category-big-picnic p {
     display: none;
 }
 
 /* ------------------ E D I N B U R G H  L I V I N G  L A N D S C A P E  ------------ */
 
 /* turn branding on at top of category list page */
-.category-edinburgh-living-landscape .page-title{
-    background-image:url('images/edinburgh_living_landscape.png');
-  	background-repeat: no-repeat;
-  	background-position: right bottom;
-      color: white;
-      height: 90px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      background-color: #C3C087;
+.category-edinburgh-living-landscape .page-title {
+    background-image: url('images/edinburgh_living_landscape.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #C3C087;
 }
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-edinburgh-living-landscape{
+.rbge-cat-brand div.category-edinburgh-living-landscape {
     display: block;
-    background-image:url('images/edinburgh_living_landscape.png');
-   	background-repeat: no-repeat;
-   	background-position: right bottom;
-   	background-color: #C3C087;
-   	height: 90px;
+    background-image: url('images/edinburgh_living_landscape.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #C3C087;
+    height: 90px;
 }
 
-.category-edinburgh-living-landscape .page-title h1{
+.category-edinburgh-living-landscape .page-title h1 {
     display: none;
 }
+
 .rbge-cat-brand div.category-edinburgh-living-landscape h3,
-.rbge-cat-brand div.category-edinburgh-living-landscape p
-{
+.rbge-cat-brand div.category-edinburgh-living-landscape p {
     display: none;
 }
 
 /* ------------------ Flora of Nepal Trail ------------ */
 
 /* turn branding on at top of category list page */
-.category-flora-nepal-trail .page-title{
-    background-image:url('images/flora-nepal-trail.png');
-  	background-repeat: no-repeat;
-  	background-position: right bottom;
-      color: white;
-      height: 90px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      background-color: white;
+.category-flora-nepal-trail .page-title {
+    background-image: url('images/flora-nepal-trail.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
 }
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-flora-nepal-trail{
+.rbge-cat-brand div.category-flora-nepal-trail {
     display: block;
-    background-image:url('images/flora-nepal-trail.png');
-   	background-repeat: no-repeat;
-   	background-position: right bottom;
-   	background-color: white;
-   	height: 90px;
+    background-image: url('images/flora-nepal-trail.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: white;
+    height: 90px;
 }
 
-.category-flora-nepal-trail .page-title h1{
+.category-flora-nepal-trail .page-title h1 {
     display: none;
 }
+
 .rbge-cat-brand div.category-flora-nepal-trail h3,
-.rbge-cat-brand div.category-flora-nepal-trail p
-{
+.rbge-cat-brand div.category-flora-nepal-trail p {
     display: none;
 }
 
 /* ------------------ Plants of India ------------ */
 
 /* turn branding on at top of category list page */
-.category-plants-of-india .page-title{
-    background-image:url('images/plants-of-india.png');
-  	background-repeat: no-repeat;
-  	background-position: right bottom;
-      color: white;
-      height: 90px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      background-color: white;
+.category-plants-of-india .page-title {
+    background-image: url('images/plants-of-india.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
 }
 
 /* turn branding on at top of single page */
-.rbge-cat-brand div.category-plants-of-india{
+.rbge-cat-brand div.category-plants-of-india {
     display: block;
-    background-image:url('images/plants-of-india.png');
-   	background-repeat: no-repeat;
-   	background-position: right bottom;
-   	background-color: white;
-   	height: 90px;
+    background-image: url('images/plants-of-india.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: white;
+    height: 90px;
 }
 
-.category-plants-of-india .page-title h1{
+.category-plants-of-india .page-title h1 {
     display: none;
 }
+
 .rbge-cat-brand div.category-plants-of-india h3,
-.rbge-cat-brand div.category-plants-of-india p
-{
+.rbge-cat-brand div.category-plants-of-india p {
     display: none;
 }
 
 /* -------------- end sub branding -------------- */
 
 @media (max-width: 600px) {
-    
-    .page-title{
+
+    .page-title {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
-    
+
 }
 
-@media (max-width: 500px) {
-    
-}
+@media (max-width: 500px) {}
